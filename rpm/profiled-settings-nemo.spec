@@ -9,6 +9,7 @@ BuildArch:  noarch
 URL:        https://github.com/nemomobile-ux/profiled-settings-nemo
 Source0:    %{name}-%{version}.tar.gz
 Requires:   profiled
+Requires:   nemo-theme-glacier >= 0.2
 Conflicts:  profiled-settings-default
 Provides:   profiled-settings
 
